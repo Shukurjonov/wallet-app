@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style/main.css">
+</head>
+<body>
+    
+
+
+    
+    <div class="container">
+        <h1 class="tot">Total: <span id="total">890</span> </h1>
+
+        <div class="wrapper-inner row">
+
+
+            <div class="income" >
+                <p>Income</p>
+                <form id="incomeForm">
+                    <input name="purpose" type="text" id="purposeIncome" placeholder="maqsad..." required>
+                    <input name="cost" type="number" id="costIncome" placeholder="summa..." required>
+                    <button class="btn" type="submit">send</button>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>
+                                <th>purpose</th>
+                                <th>cost</th>
+                                <th></th>
+                            </tr>
+                        </tr>
+                    </thead>
+                    <tbody class="incomeList">
+                        <tr>
+                            <td>Biznes</td>
+                            <td>+1000$</td>
+                            <td><button class="del">X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Biznes</td>
+                            <td>+1000$</td>
+                            <td><button class="del" >X</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="expanse">
+                <p>Expanse</p>
+                <form id="expanseForm">
+                    <input name="purpose" type="text" id="purposeExpense" placeholder="maqsad..." required>
+                    <input name="cost" type="number" id="costExpense" placeholder="summa..." required>
+                    <button class="btn" type="submit">send</button>
+                </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <tr>
+                                <th>purpose</th>
+                                <th>cost</th>
+                                <th></th>
+                            </tr>
+                        </tr>
+                    </thead>
+                    <tbody class="expanseList">
+                        <tr>
+                            <td>Biznes</td>
+                            <td>-1000$</td>
+                            <td><button class="del">X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Biznes</td>
+                            <td>-1000$</td>
+                            <td><button class="del" >X</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+       </div>
+
+<script src="../public/js/main.js" ></script>
+</body>
+</html>
